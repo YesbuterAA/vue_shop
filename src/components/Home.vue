@@ -133,7 +133,6 @@ export default {
   .el-main {
     background-color: #EAEDF1;
     color: #333;
-    text-align: center;
   }
   .iconfont {
     margin-right: 10px;

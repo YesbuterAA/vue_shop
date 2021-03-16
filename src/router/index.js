@@ -7,6 +7,8 @@ const Login = () => import('../components/Login.vue')
 const Home = () => import('../components/Home.vue')
 const Welcome = () => import('../components/Welcome.vue')
 const User = () => import('../components/User/User.vue')
+const Rights = () => import('../components/power/Rights.vue')
+const Roles = () => import('../components/power/Roles.vue')
 const routes = [
   // 路由重定向
   {
@@ -23,7 +25,9 @@ const routes = [
     redirect: '/Welcome',
     children: [
       { path: '/Welcome', component: Welcome },
-      { path: '/users', component: User }
+      { path: '/users', component: User },
+      { path: '/rights', component: Rights },
+      { path: '/roles', component: Roles }
     ]
   }
 ]
