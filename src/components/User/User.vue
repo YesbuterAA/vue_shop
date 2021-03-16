@@ -408,6 +408,7 @@ export default {
       this.$message.success('更新角色成功')
       this.getUserList()
       this.setRoleDialogVisible = false
+      console.log(res)
     },
     // 监听分配角色对话框的关闭
     setRoleDialogClosed () {
