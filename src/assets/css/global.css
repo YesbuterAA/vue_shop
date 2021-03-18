@@ -29,3 +29,9 @@ html,body, #app {
   height: 200px;
   overflow: auto;
 }
+.el-tag {
+  margin: 10px;
+}
+.input-new-tag {
+  width: 120px;
+}
