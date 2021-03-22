@@ -14,6 +14,7 @@ const Params = () => import('../components/goods/Params.vue')
 const List = () => import('../components/goods/List.vue')
 const addGoods = () => import('../components/goods/Add.vue')
 const Order = () => import('../components/order/Order.vue')
+const Report = () => import('../components/report/Report.vue')
 const routes = [
   // 路由重定向
   {
@@ -37,7 +38,8 @@ const routes = [
       { path: '/params', component: Params },
       { path: '/goods', component: List },
       { path: '/goods/add', component: addGoods },
-      { path: '/orders', component: Order }
+      { path: '/orders', component: Order },
+      { path: '/reports', component: Report }
     ]
   }
 ]
