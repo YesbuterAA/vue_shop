@@ -13,6 +13,7 @@ const Cate = () => import('../components/goods/Cate.vue')
 const Params = () => import('../components/goods/Params.vue')
 const List = () => import('../components/goods/List.vue')
 const addGoods = () => import('../components/goods/Add.vue')
+const Order = () => import('../components/order/Order.vue')
 const routes = [
   // 路由重定向
   {
@@ -35,7 +36,8 @@ const routes = [
       { path: '/categories', component: Cate },
       { path: '/params', component: Params },
       { path: '/goods', component: List },
-      { path: '/goods/add', component: addGoods }
+      { path: '/goods/add', component: addGoods },
+      { path: '/orders', component: Order }
     ]
   }
 ]

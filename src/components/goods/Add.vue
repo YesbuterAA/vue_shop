@@ -104,7 +104,7 @@
 </template>
 
 <script>
-// 导入lodash
+// 导入lodash 一个富文本插件
 import _ from 'lodash'
 
 export default {
